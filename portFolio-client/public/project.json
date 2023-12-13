@@ -1,0 +1,23 @@
+
+
+[
+     {
+        "name":"Inventory",
+         
+         "projectImage":"https://i.ibb.co/cDCJGzN/project1.png",
+         "projectLink":"https://myims-d3864.web.app",
+         "description":"inventory management system.It will be more beneficial for every shop owner. where included beautiful features"
+     },
+     {
+        "name":"HOTEL BEE",
+        "projectImage":"https://i.ibb.co/Qfvv94X/project2.png",
+         "projectLink":"https://hotelbooking-52dcf.web.app",
+         "description":"HOTEL & ROOM BOOKING Website. where users chose their luxury room and can book a single seat . and security included with jwt (token) ."
+     },
+     {
+        "name":"Automotive",
+        "projectImage":"https://i.ibb.co/Lzv76ZL/project3.png",
+         "projectLink":" https://automotive-56db5.web.app",
+         "description":"Welcome [automotive] website .there are user can sale their branding cars. and can see banding related car showcase . and included login & registration."
+     }
+]

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+     background-color: #27272A;
+}
+
+.banner{
+
+     background: linear-gradient( 290deg,#27272A 50% , #475569 50% );
+     width: 100%;
+     background-size: auto;
+     
+    
+
+}
+
+/* .animateImg {
+
+     @keyframes example {
+          0%   {}
+          25%  { transform: translateY(-25%);}
+          50%  {transform: translateY(0%);}
+          25% {background-color: -25%}
+        }
+} */
