@@ -20,25 +20,25 @@ const About = () => {
             </div>
 
             <div className='flex-1'>
-              <h1 className='text-3xl md:text-5xl text-[#0F766E] font-bold'>About Me</h1>
-              <h2 className='text-2xl md:text-3xl font-bold'>
-                Iam MernStack Junior Developer With 7month Experience
+              <h1 className='text-3xl md:text-4xl text-[#0F766E] font-bold specific'>About Me</h1>
+              <h2 className='text-2xl md:text-3xl font-semibold my-5 '>
+                I am MernStack Junior Developer With 7month Experience
               </h2>
 
 
              <p className="py-4    ">Hello ! 👋 I'm  <span className="font-bold text-[#0F766E]">Abdurrahman</span> , a passionate (MERN)STACK Junior Developer. iam hopfull for to be next senior developer</p>
             
-              <div className='flex space-x-6'>
+              <div className='flex justify-start space-x-6 mb-3'>
 
                 <div className=''>
                   <div className='stat place-items-center text-center bg-transparent'>
-                    <div className='stat-value text-lg md:text-2xl'>
+                    <div className='stat-value text-lg md:text-2xl specific'>
                       {inView ? (
                         <CountUp start={0} duration={5} end={240} />
                       ) : null}
                       +
                     </div>
-                    <div className='text-lg font-bold'>
+                    <div className='text-lg  specific'>
                       Days of
                       <br /> Experience
                     </div>
@@ -47,12 +47,12 @@ const About = () => {
 
                 <div className=''>
                   <div className='stat place-items-center text-center bg-transparent'>
-                    <div className='stat-value text-lg md:text-2xl'>
+                    <div className='stat-value text-lg md:text-2xl specific'>
 
                       {inView? <CountUp start={0} end={20}/>  : null} 
                       +
                     </div>
-                    <div className=' text-lg font-bold'>
+                    <div className=' text-lg specific'>
                        Project
                       <br /> Completed
                     </div>

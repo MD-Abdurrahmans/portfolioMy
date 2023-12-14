@@ -25,7 +25,7 @@ const Navbars = () => {
    <Container>
    <Navbar fluid rounded className='bg-transparent py-5 text-white'>
         
-        <Navbar.Brand href="https://flowbite-react.com">
+        <Navbar.Brand href="">
         <img src={logo} className='h-[50px]'  alt="" />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
             
@@ -64,7 +64,7 @@ const Navbars = () => {
       to="project" 
       spy={true} 
       smooth={true} 
-      offset={50} 
+      offset={-50} 
       duration={500} > Project</Link>
 
             <Link className='text-white cursor-pointer'        activeClass="active" 

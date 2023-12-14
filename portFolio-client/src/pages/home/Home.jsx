@@ -16,7 +16,7 @@ const Home = () => {
       to="/" 
       spy={true} 
       smooth={true} 
-      offset={50} 
+      offset={-200} 
       duration={500}  >
             <IoIosArrowDropupCircle className="text-5xl text-[#0F766E] bg-white rounded-full fixed  right-7 cursor-pointer bottom-4"/>
                

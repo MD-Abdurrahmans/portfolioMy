@@ -12,7 +12,7 @@ const Skills = () => {
 
 
         <div>
-        <h1 className="text-5xl text-white text-center my-10 underline">SKILLS</h1>
+        <h1 className="text-4xl text-white text-center my-10 underline specific">SKILLS</h1>
         <div className="flex flex-col md:flex-row justify-between items-center ">
        
 <div className='flex-1 my-6 md:my-0 '>

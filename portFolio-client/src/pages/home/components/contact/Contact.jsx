@@ -49,7 +49,7 @@ const Contact = () => {
         <div className='hero min-h-screen  text-white w-full'>
           <div className='hero-content flex-col items-center  md:flex-row justify-between  w-full '>
             <div className='flex-1 text-center lg:text-left  w-full '>
-              <h1 className='text-3xl md:text-5xl font-bold flex'>
+              <h1 className='text-3xl md:text-4xl font-bold flex specific'>
                 Lets  <span className="text-[#0F766E] ml-2">Connect</span> <MdMessage className='text-5xl ml-2 text-white' />{" "}
               </h1>
               <p className='py-6 max-w-md'>

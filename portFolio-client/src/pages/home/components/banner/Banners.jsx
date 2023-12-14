@@ -26,14 +26,14 @@ const Banners = () => {
 
         <div className=' w-full'>
           <Container>
-            <div className='flex flex-col md:flex-row  justify-between items-center'>
+            <div className='flex flex-col flex-wrap  md:flex-row  justify-between items-center'>
               <div className=''>
                 <div className='hero-content'>
                   <div className='max-w-lg text-white'>
                     <motion.h1
                     variants={fadeIn('up', 0.3)}
                     initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
-                    className='mb-5 text-3xl md:text-5xl font-bold'>
+                    className='mb-5 text-3xl md:text-4xl font-bold specific'>
                       Hi, I'M <span>Abdurrahman</span>{" "}
                     </motion.h1>
 
@@ -44,9 +44,9 @@ const Banners = () => {
                   variants={fadeIn('up', 0.6)}
                   initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.9 }}
                   >
-                  <span className="text-2xl md:text-4xl">iam a </span>
+                  <span className="text-2xl md:text-4xl specific">i am a </span>
                      <TypeAnimation 
-                     className="text-5xl text-[#10B981] font-bold "
+                     className="text-5xl text-[#10B981] font-bold  "
                       sequence={[
                          'FontEnd Focused',2000,
                         'Developer', 2000,
@@ -62,7 +62,7 @@ const Banners = () => {
                     variants={fadeIn('up', 0.7)}
                     initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.11 }}
 
-                    className='mb-5 py-2'>
+                    className='mb-5 my-10  leading-7'>
                     I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.
                     </motion.p>
              

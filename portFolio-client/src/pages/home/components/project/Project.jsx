@@ -28,7 +28,7 @@ console.log(data)
     <div className="my-10" id="project">
     
     <Container>
-    <h1 className='text-5xl text-center text-white my-24 underline'>Project</h1>
+    <h1 className='text-4xl text-center text-white my-24 underline specific'>Project</h1>
 
 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
 
@@ -43,7 +43,7 @@ console.log(data)
 <div className="card card-compact   bg-base-100 shadow-xl  group overflow-hidden">
 <figure><img src={project?.projectImage} className="h-[300px]" alt="Shoes" /></figure>
 <div className="card-body absolute   -bottom-full group-hover:bottom-0  transition-all duration-500 z-50   group-hover:block bg-black w-full h-full bg-opacity-50 text-white">
-<h2 className="card-title">{project?.name}</h2>
+<h2 className="card-title specific text-white]">{project?.name}</h2>
 <p>{project?.description}</p>
 
 
