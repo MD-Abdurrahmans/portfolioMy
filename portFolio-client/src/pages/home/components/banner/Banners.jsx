@@ -11,8 +11,9 @@ import { motion } from 'framer-motion';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { fadeIn } from "../../../../utils/varient";
-import { IoIosArrowBack } from "react-icons/io";
-import { IoIosArrowForward } from "react-icons/io";
+import top from '../../../../assets/top.json'
+import Lottie from "lottie-react";
+
 AOS.init();
 const Banners = () => {
 
@@ -26,14 +27,15 @@ const Banners = () => {
 
         <div className=' w-full'>
           <Container>
-            <div className='flex flex-col flex-wrap  md:flex-row  justify-between items-center'>
-              <div className=''>
-                <div className='hero-content'>
-                  <div className='max-w-lg text-white'>
+            <div className='flex flex-col flex-wrap  relative  md:flex-row  justify-between items-center'>
+                    <Lottie animationData={top} className='absolute left-1/3 w-1/3' />
+              <div className='z-40'>
+                <div className='hero-content  '>
+                  <div className='max-w-lg text-white '>
                     <motion.h1
                     variants={fadeIn('up', 0.3)}
                     initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }}
-                    className='mb-5 text-3xl md:text-4xl font-bold specific'>
+                    className='mb-5   z-30 text-3xl md:text-4xl font-bold specific'>
                       Hi, I'M <span>Abdurrahman</span>{" "}
                     </motion.h1>
 

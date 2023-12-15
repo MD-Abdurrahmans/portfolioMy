@@ -6,17 +6,22 @@ import CountUp from "react-countup";
 import {useInView} from "react-intersection-observer";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { Link } from "react-scroll"
+import aboutImg from '../../../../../public/about2.png' 
+import b1 from '../../../../assets/b1.json'
+import Lottie from "lottie-react";
+
 const About = () => {
   const {ref, inView} = useInView({
     threshold: 0.5,
   });
   return (
     <div id='about' ref={ref} >
-      <div className='hero min-h-screen  text-white   my-10'>
+      <div className='hero min-h-screen   text-white   my-10' >
         <Container>
           <div className='flex flex-col md:flex-row justify-between items-center'>
-            <div className='flex-1 relative '>
-              <img src={about} className=' ' alt='' />
+            <div className='flex-1 relative '  >
+              <Lottie animationData={b1} className="absolute bottom-0 mix-blend-lighten left-1/2 z-20 w-1/2 "/>
+              <img src={about} className='mix-blend-lighten border-b-4  z-40  ' alt='' />
             </div>
 
             <div className='flex-1'>
